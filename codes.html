@@ -8,17 +8,15 @@
 <hr>
 
 <h3>Code</h3>
-<code>function displayMsg()
-{
-alert("Hello World!")
+<code>function displayMsg() {
+	alert("Hello World!");
 }</code>
 
 <hr>
 
 <h3>Pre</h3>
-<pre>function displayMsg()
-{
-alert("Hello World!")
+<pre>function displayMsg() {
+	alert("Hello World!");
 }</pre>
 
 <hr>
@@ -30,9 +28,9 @@ alert("Hello World!")
 
 <h3>Unordered list (ul) </h3>
 <ul>
-   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-   <li>Aliquam tincidunt mauris eu risus.</li>
-   <li>Vestibulum auctor dapibus neque.</li>
+	<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+	<li>Aliquam tincidunt mauris eu risus.</li>
+	<li>Vestibulum auctor dapibus neque.</li>
 </ul>
 
 <hr>
@@ -49,13 +47,28 @@ alert("Hello World!")
 <h3>Unordered list navigation (nav ul) </h3>
 <nav>
   <ul>
-		<li><a href="#nowhere" title="Lorum ipsum dolor sit amet">Lorem</a></li>
+  	<li><a href="#nowhere" title="Lorum ipsum dolor sit amet">Lorem</a></li>
 		<li><a href="#nowhere" title="Aliquam tincidunt mauris eu risus">Aliquam</a></li>
 		<li><a href="#nowhere" title="Morbi in sem quis dui placerat ornare">Morbi</a></li>
 		<li><a href="#nowhere" title="Praesent dapibus, neque id cursus faucibus">Praesent</a></li>
 		<li><a href="#nowhere" title="Pellentesque fermentum dolor">Pellentesque</a></li>
 	</ul>
 </nav>
+
+<hr>
+
+<h3>Definition list (dl, dt)</h3>
+
+<dl>
+   <dt>Definition list</dt>
+   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat.</dd>
+   <dt>Lorem ipsum dolor sit amet</dt>
+   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+commodo consequat.</dd>
+</dl>
 
 <hr>
 
@@ -92,27 +105,15 @@ alert("Hello World!")
 </table>
 <hr>
     
-<h1>HTML Ipsum Presents</h1>
+<h3>Several HTML elements</h3>
 	       
 <p><em>Italic</em>, <u>underline</u>, leo ligula<sup>sup</sup>, porttitor<sub>sub</sub>, consequat. <strong>Strong</strong>: <code>vitae</code>, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut meus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam <a href="#">url link</a> nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
 
-<h2>Header Level 2</h2>
-	       
-<ol>
-   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-   <li>Aliquam tincidunt mauris eu risus.</li>
-</ol>
+<blockquote><p>Blockquote! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
 
-<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
-
-<h3>Header Level 3</h3>
-
-<ul>
-   <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-   <li>Aliquam tincidunt mauris eu risus.</li>
-</ul>
 
 <pre><code>
+/* <pre><code> */
 #header h1 a { 
 	display: block; 
 	width: 300px; 
@@ -123,20 +124,20 @@ alert("Hello World!")
 <hr>
 
 <h3>Form elements</h3>
+
 <form action="#" method="post">
-    <div>
-         <label for="name">Text Input:</label>
-         <input type="text" name="name" id="name" value="" tabindex="1" />
-    </div>
-
-    <div>
-         <h4>Radio Button Choice</h4>
-
-<label for="radio-choice-1">Choice 1</label><input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" />
-<label for="radio-choice-2">Choice 2</label><input type="radio" name="radio-choice-2" id="radio-choice-2" value="choice-2" />
-<label for="radio-choice-3">Choice 2</label><input type="radio" name="radio-choice-3" id="radio-choice-3" value="choice-3" />
-    </div>
-
+	<div>
+		<label for="name">Text Input:</label>
+		<input type="text" name="name" id="name" value="" />
+	</div>
+	
+	<div>
+	<h4>Radio Button Choice</h4>
+		<label for="radio-choice-1">Choice 1</label><input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" />
+		<label for="radio-choice-2">Choice 2</label><input type="radio" name="radio-choice-2" id="radio-choice-2" value="choice-2" />
+		<label for="radio-choice-3">Choice 2</label><input type="radio" name="radio-choice-3" id="radio-choice-3" value="choice-3" />
+	</div>
+	
 	<div>
 		<label for="select-choice">Select Dropdown Choice:</label>
 		<select name="select-choice" id="select-choice">
@@ -145,18 +146,18 @@ alert("Hello World!")
 			<option value="Choice 3">Choice 3</option>
 		</select>
 	</div>
-	
+		
 	<div>
 		<label for="textarea">Textarea:</label>
 		<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
 	</div>
+		
+	<div>
+		<label for="checkbox">Checkbox:</label>
+		<input type="checkbox" name="checkbox" id="checkbox" />
+	</div>
 	
 	<div>
-	    <label for="checkbox">Checkbox:</label>
-		<input type="checkbox" name="checkbox" id="checkbox" />
-    </div>
-
-	<div>
-	    <input type="submit" value="Submit" />
-    </div>
+		<input type="submit" value="Submit" />
+	</div>
 </form>

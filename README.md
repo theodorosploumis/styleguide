@@ -6,7 +6,7 @@ HTML elements demo codes
 This is a simple snippet of basic HTML codes to use for HTML and CSS demostration.
 Feel free to add more codes.
 
-Thanks a lot to html-ipsum.com.
+Thanks a lot to http://html-ipsum.com.
 
 HOW To USE
 ----------

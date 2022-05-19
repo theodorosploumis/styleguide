@@ -1,5 +1,4 @@
-html-demo-codes
-===============
+# HTML demo Styleguide
 
 HTML4,5 elements demo codes.
 
@@ -8,7 +7,6 @@ Feel free to add extra codes.
 
 Thanks a lot to http://html-ipsum.com for HTML codes and http://placeholder.com for dummy images.
 
-HOW To USE
-----------
+## How to use
 
 Just copy the codes from codes.html file into your HTML file, wysiwyg editor etc.
